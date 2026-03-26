@@ -1,0 +1,30 @@
+# Documents — never commit
+documents/
+*.pdf
+*.PDF
+*.docx
+*.doc
+*.txt
+
+# ChromaDB vector store
+legal_audit_db/
+*.sqlite3
+*.sqlite
+
+# Environment
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Output files
+*.json
+output/
+reports/
