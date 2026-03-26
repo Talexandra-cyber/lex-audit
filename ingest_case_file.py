@@ -254,7 +254,7 @@ def main():
     # Set your API key if needed for later queries
     # os.environ["ANTHROPIC_API_KEY"] = "your-key-here"
 
-    case_file_path = "/Users/tiffanyalex/Desktop/tiffany bowhay case file"
+    case_file_path = "./documents/case_file"
 
     print("\n" + "="*80)
     print("ATTORNEY CASE FILE INGESTION")

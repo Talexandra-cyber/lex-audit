@@ -85,7 +85,7 @@ def run_line_by_line_audit(query_topic, rag_engine, client):
 - **Trigger Phrases:** "FedEx", "billing", "your account", "personal expense", "shipping costs"
 - **Rule:** CRPC 1.8(e)(1) - Paragraph 8 (Attorney must advance costs)
 - **Logic:** IF firm extracted $11,213+ in fees/costs BUT forces client to pay for check delivery (~$20-50) → FLAG "PARAGRAPH 8 LAPSE" + "PETTY EXPLOITATION"
-- **Context:** Settlement = $8,000 to client after fees deducted
+- **Context:** Compare settlement amount against total fees extracted
 - **Action:** Calculate extraction ratio (fees extracted ÷ client recovery)
 
 **CATEGORY 4: TACTICAL SUPPRESSION (THE BIG STALL)**
